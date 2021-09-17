@@ -13,6 +13,5 @@ You can train and create your custom model for hand gesture recognition based on
 
 <strong>Description</strong>:
 - main.py - (datasets) Generate CSV file with hand landmarks (./output directory)
-- train.py - Create and train a model and export it (./model directory)
--            At least two different classes is required in dataset input file.
+- train.py - Create and train a model and export it (./model directory).  <br/><i>At least two different classes is required in dataset input file</i>.
 - predict.py - Test the model.
