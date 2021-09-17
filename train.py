@@ -2,10 +2,10 @@
 import pandas as pd
 from sklearn.model_selection import train_test_split
 
-DATA_DIR = './hand_gesture/output'
+DATA_DIR = './output'
 DATA_CSV_FILE = '/hand_gesture_data.csv'
 
-MODEL_DIR = './hand_gesture/model'
+MODEL_DIR = './model'
 HAND_GESTURE_MODEL_FILE = '/feedback_language.pkl'
 
 df = pd.read_csv(DATA_DIR + DATA_CSV_FILE)
